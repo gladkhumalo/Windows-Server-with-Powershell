@@ -1,2 +1,105 @@
-# Windows-Server-with-Powershell
-Active Directory, DHCP, DNS, IIS, PowerShell Fundamentals, Pipeline, WMI, CIM
+# 🖥️ System Information Script (PowerShell)
+
+## 📌 Overview
+
+This PowerShell script collects and displays essential system information from a Windows machine.
+It is designed to help IT support technicians and system administrators quickly assess system health and configuration.
+
+---
+
+## 🎯 Purpose
+
+* Automate system information gathering
+* Reduce manual troubleshooting time
+* Provide quick insights into machine specifications
+
+---
+
+## ⚙️ Features
+
+This script retrieves:
+
+* 🧠 CPU information
+* 💾 RAM usage and total memory
+* 🗄️ Disk space usage
+* 🖥️ Operating System details
+* 🌐 Network configuration
+* ⚡ System uptime
+
+---
+
+## 🧪 Technologies Used
+
+* PowerShell
+* Windows Management Instrumentation (WMI)
+* CIM (Common Information Model)
+
+---
+
+## 🚀 How to Run
+
+1. Open PowerShell as Administrator
+2. Navigate to the script directory:
+
+   ```powershell
+   cd path\to\your\script
+   ```
+3. Run the script:
+
+   ```powershell
+   .\SystemInfo.ps1
+   ```
+
+---
+
+## 📸 Example Output
+
+```powershell
+Computer Name: DESKTOP-123
+OS: Windows 10 Pro
+CPU: Intel Core i5
+RAM: 8GB
+Disk: 120GB Free / 256GB Total
+Uptime: 5 days
+```
+
+---
+
+## 🧠 Concepts Demonstrated
+
+* Variables
+* Command usage
+* System queries using `Get-CimInstance`
+* Output formatting
+
+---
+
+## 🔐 Use Case
+
+This script can be used in:
+
+* IT Support troubleshooting
+* System audits
+* Pre-deployment checks
+* Helpdesk diagnostics
+
+---
+
+## 📈 Future Improvements
+
+* Export results to a file (CSV/JSON)
+* Add remote computer support
+* Include GPU information
+* Build a GUI version
+
+---
+
+## 👤 Author
+
+Glad Khumalo
+
+---
+
+## ⭐️ Acknowledgements
+
+This project is part of my PowerShell learning journey as I transition into Cloud Engineering and System Administration.
